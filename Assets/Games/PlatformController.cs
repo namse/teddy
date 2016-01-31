@@ -47,6 +47,7 @@ public class PlatformController : MonoBehaviour {
 
 	public static AppData.Step currentSongStep;
 
+	public float CameraPositionX;
 	void Awake(){
 		StartedSong = false;
 
@@ -67,8 +68,8 @@ public class PlatformController : MonoBehaviour {
 			if (StartedSong == false && 
 				PlatformControllerReady == true &&
 				HurdleControllerReady == true &&
-				CloudControllerReady == true &&
-				CameraControllerReady == true) {
+				CloudControllerReady == true /*&&
+				CameraControllerReady == true*/) {
 
 				beatSynchronizer[(int)currentSongStep].SongStart ();
 				StartedSong = true;
@@ -143,7 +144,7 @@ public class PlatformController : MonoBehaviour {
 				} else {
 					transform.position += new Vector3 (moveSpeed * Timestep, currentYVelocity * Timestep, 0);
 				}
-				cameraTransform.position = new Vector3 (this.transform.position.x, cameraTransform.position.y, cameraTransform.position.z);
+				cameraTransform.position = new Vector3 (this.transform.position.x + CameraPositionX, cameraTransform.position.y, cameraTransform.position.z);
 			}
 		}
 	}

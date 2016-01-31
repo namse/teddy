@@ -63,6 +63,7 @@ public class Menu : MonoBehaviour {
 		MenuBear.transform.SetAsLastSibling ();
 		AppData.DidClearStep = AppData.Step.NULL;
 		SetIsWalking();
+		CurrentWaitingTime = (int)(3 / 0.02);
 	}
 
 	// Update is called once per frame
