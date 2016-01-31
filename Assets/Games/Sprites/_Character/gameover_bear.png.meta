@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 292ac416bfe1446fab7ba2c404e7c48f
+timeCreated: 1445486779
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gameover_bear_0
+    21300002: gameover_bear_1
+    21300004: gameover_bear_2
+    21300006: gameover_bear_3
+    21300008: gameover_bear_4
+    21300010: gameover_bear_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: gameover_bear_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 350
+        width: 342
+        height: 308
+      alignment: 9
+      pivot: {x: .533553839, y: .0322072431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gameover_bear_1
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 184
+        width: 116
+        height: 127
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gameover_bear_2
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 124
+        width: 92
+        height: 85
+      alignment: 9
+      pivot: {x: .901916742, y: .890013933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gameover_bear_3
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 29
+        width: 51
+        height: 115
+      alignment: 9
+      pivot: {x: .55000186, y: .943493903}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gameover_bear_4
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 34
+        width: 45
+        height: 106
+      alignment: 9
+      pivot: {x: .500000656, y: .93303436}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: gameover_bear_5
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 153
+        width: 65
+        height: 68
+      alignment: 9
+      pivot: {x: .107678689, y: .89376384}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

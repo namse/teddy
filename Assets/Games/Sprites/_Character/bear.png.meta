@@ -1,0 +1,122 @@
+fileFormatVersion: 2
+guid: 41d5aa6be5dd14064a360afd97cdd44a
+timeCreated: 1445406240
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: bear_0
+    21300002: bear_1
+    21300004: bear_2
+    21300006: bear_3
+    21300008: bear_4
+    21300010: bear_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: bear_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 124
+        width: 92
+        height: 85
+      alignment: 9
+      pivot: {x: .874198437, y: .890013933}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_1
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 29
+        width: 51
+        height: 115
+      alignment: 9
+      pivot: {x: .500000298, y: .921319306}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_2
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 34
+        width: 45
+        height: 106
+      alignment: 9
+      pivot: {x: .500000656, y: .921005547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_3
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 153
+        width: 65
+        height: 68
+      alignment: 9
+      pivot: {x: .127294928, y: .856262445}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_4
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 209
+        width: 121
+        height: 137
+      alignment: 9
+      pivot: {x: .52107501, y: .90019685}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bear_5
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 360
+        width: 342
+        height: 314
+      alignment: 9
+      pivot: {x: .522369206, y: .0452067368}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
