@@ -19,6 +19,9 @@ public class CloudController : MonoBehaviour {
 	private float nextPeriod;
 	// Use this for initialization
 	void Start () {
+		for(int i = 0 ; i <5 ; i++){
+			availableCloud.Add ((Cloud)Instantiate (cloudPrepab, new Vector3(-5f,0,0), Quaternion.identity));
+		}
 		accumulatedCount = 0;
 		UpdateNextPeriod ();
 		
@@ -39,8 +42,8 @@ public class CloudController : MonoBehaviour {
 					availableCloud.RemoveAt (0);
 				} else {
 					cloud = (Cloud)Instantiate (cloudPrepab);
-					cloudList.Add (cloud);
 				}
+				cloudList.Add (cloud);
 				cloud.transform.position = new Vector3 (transform.position.x + createDistance, Random.Range (minY, maxY), 0);
 				cloud.MoveStart ();
 				UpdateNextPeriod ();

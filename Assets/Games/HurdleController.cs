@@ -8,14 +8,21 @@ public class HurdleController: MonoBehaviour {
 	[HideInInspector] public float currentBeat = 0;
 
 	public static float endX = float.PositiveInfinity;
-
+	public static float readyRange = 20;
+	public static float deadLine = -4;
+	ReserveList<float> flowerList = new ReserveList<float>();
+	List<Flower> workingFlowerList = new List<Flower>();
+	List<Flower> readyFlowerList = new List<Flower>();
 	float count = 0;
 	float currentTime = 0;
 	float notePrepareTime = 0;
 	float notePrepareBeat = 0;
 	// Use this for initialization
 	void Start () {
-
+		for(int i = 0; i < 5; i++){
+			Flower flower = (Flower)Instantiate (FlowerPrefab, new Vector3(-5f,0,0), Quaternion.identity);
+			readyFlowerList.Add(flower);
+		}
 
 		InitHurdle ();
 
@@ -23,14 +30,36 @@ public class HurdleController: MonoBehaviour {
 		Debug.Log ("hihasdfi");
 	}
 
+	void Update(){
+		if (PlatformController.StartedSong) {
+			float flowerX = new float();
+			if(flowerList.PopAvailableValue(transform.position.x + readyRange, ref flowerX)){
+				Flower flower;
+				if(readyFlowerList.Count > 0){
+					flower = readyFlowerList[0];
+					readyFlowerList.RemoveAt(0);
+				} else {
+					flower = (Flower)Instantiate (FlowerPrefab);
+				}
+				workingFlowerList.Add(flower);
+				flower.transform.position = new Vector3(flowerX,-0.7f, 0);
+			}
+			foreach (Flower flower in workingFlowerList.ToArray()) {
+				if (flower.transform.position.x <= transform.position.x - deadLine) {
+					readyFlowerList.Add (flower);
+					workingFlowerList.Remove (flower);
+				}
+			}
+		}
+	}
+
 	void InitHurdle(){
 
 		if (PlatformController.currentSongStep == AppData.Step.One) {
 
 			AddRest (5 - 0.4f);
-		
+
 			AddFlowerWithDeltaBeat (4f);
-			AddEndPoint ();
 			AddFlowerWithDeltaBeat (4f);
 			AddFlowerWithDeltaBeat (4f);
 			AddFlowerWithDeltaBeat (3.5f);
@@ -173,13 +202,13 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (2.5f);
 			AddFlowerWithDeltaBeat (4.75f);
 			AddFlowerWithDeltaBeat (12.5f);
+			AddEndPoint ();
 
 
 		} else if (PlatformController.currentSongStep == AppData.Step.Two) {
 
 			AddRest (5 - 0.125f);
 			AddFlowerWithDeltaBeat (4.125f);
-			AddEndPoint ();
 			AddFlowerWithDeltaBeat (4f);
 			AddFlowerWithDeltaBeat (4f);
 			AddFlowerWithDeltaBeat (3.75f);
@@ -434,11 +463,11 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (1.05f);  
 
 			AddRest(2.0f);
+			AddEndPoint ();
 
 		} else if (PlatformController.currentSongStep == AppData.Step.Three) {
 			AddRest (7f);
 			AddFlowerWithDeltaBeat (4f);
-			AddEndPoint ();
 			AddFlowerWithDeltaBeat (4f);
 			AddFlowerWithDeltaBeat (4f);
 			
@@ -789,6 +818,7 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (2.0f);
 
 			AddRest(2.0f);
+			AddEndPoint ();
 		}
 		
 		//AddEndPoint ();
@@ -833,8 +863,9 @@ public class HurdleController: MonoBehaviour {
 	}
 
 	void AddFlower(float x, int tag){
-		var flower = (Flower)Instantiate (FlowerPrefab, new Vector3(x, -0.7f, 0), Quaternion.identity);
-		flower.testTag = tag;
+		//var flower = (Flower)Instantiate (FlowerPrefab, new Vector3(x, -0.7f, 0), Quaternion.identity);
+		//flower.testTag = tag;
+		flowerList.Reserve(x, x);
 	}
 
 }

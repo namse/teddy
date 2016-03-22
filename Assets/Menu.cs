@@ -27,12 +27,12 @@ public class Menu : MonoBehaviour {
 		}
 		MenuBearAnimator.SetInteger("clearStep", (int)AppData.DidClearStep);
 
-		var stampStart = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, StepStart.position, Quaternion.identity);
+		/*var stampStart = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, StepStart.position, Quaternion.identity);
 		stampStart.transform.SetParent(canvas.transform);
 		stampStart.transform.localScale = new Vector3 (1f, 1f, 1f);
 		if (AppData.DidClearStep != AppData.Step.Start) {
 			stampStart.StopAnimation ();
-		}
+		}*/
 
 		if (AppData.CurrentStep != AppData.Step.One) {
 			var stamp1 = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, Step1Image.position, Quaternion.identity);
@@ -76,7 +76,7 @@ public class Menu : MonoBehaviour {
 			CurrentWaitingTime++; // 0.02 second for 1 timestep
 			if (CurrentWaitingTime >= 3 / 0.02) {
 				CurrentWaitingTime = 0;
-				if ( Random.Range(0, 1) == 0 ) {
+				if ( Random.Range(0, 2) == 0 ) {
 					CurrentPlayingBGM = BGM1AudioSoundSource;
 				} else {
 					CurrentPlayingBGM = BGM2AudioSoundSource;
@@ -106,6 +106,10 @@ public class Menu : MonoBehaviour {
 			PlatformController.currentSongStep = AppData.Step.Three;
 			Application.LoadLevel("game");
 		}
+	}
+
+	public void OpenInfo() {
+		Application.LoadLevel("Info");
 	}
 
 	void SetIsWalking(){

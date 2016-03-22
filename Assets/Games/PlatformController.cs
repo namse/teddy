@@ -26,9 +26,9 @@ public class PlatformController : MonoBehaviour {
 	private int frontGroundIndex = 0;
 	public const int MaximumfrontGroundDistance = 30;
 
-	public const float Timestep = 0.02f;
+	public const float Timestep = 0.01f;
 	private int jumpCount = 0;
-	private const int maxJumpCount = 1;
+	private const int maxJumpCount = 2;
 	// Use this for initialization
 
 	public BeatSynchronizer[] beatSynchronizer;
@@ -75,7 +75,7 @@ public class PlatformController : MonoBehaviour {
 				StartedSong = true;
 			}
 			if (StartedSong) {
-				if (Input.GetButtonDown ("Jump") && jumpCount < maxJumpCount) {
+				if ((Input.GetButtonDown ("Jump") || Input.GetMouseButtonDown(0) ) && jumpCount < maxJumpCount) {
 					jump = true;
 					currentYVelocity = 0;
 					jumpCount++;
