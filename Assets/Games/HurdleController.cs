@@ -8,8 +8,8 @@ public class HurdleController: MonoBehaviour {
 	[HideInInspector] public float currentBeat = 0;
 
 	public static float endX = float.PositiveInfinity;
-	public static float readyRange = 20;
-	public static float deadLine = -4;
+	public static float readyRange = 15;
+	public static float deadLine = -15;
 	ReserveList<float> flowerList = new ReserveList<float>();
 	List<Flower> workingFlowerList = new List<Flower>();
 	List<Flower> readyFlowerList = new List<Flower>();
@@ -19,7 +19,7 @@ public class HurdleController: MonoBehaviour {
 	float notePrepareBeat = 0;
 	// Use this for initialization
 	void Start () {
-		for(int i = 0; i < 5; i++){
+		for(int i = 0; i < 10; i++){
 			Flower flower = (Flower)Instantiate (FlowerPrefab, new Vector3(-5f,0,0), Quaternion.identity);
 			readyFlowerList.Add(flower);
 		}
@@ -27,7 +27,6 @@ public class HurdleController: MonoBehaviour {
 		InitHurdle ();
 
 		PlatformController.HurdleControllerReady = true;
-		Debug.Log ("hihasdfi");
 	}
 
 	void Update(){
@@ -57,7 +56,7 @@ public class HurdleController: MonoBehaviour {
 
 		if (PlatformController.currentSongStep == AppData.Step.One) {
 
-			AddRest (5 - 0.4f);
+            AddRest(5 - 0.4f);
 
 			AddFlowerWithDeltaBeat (4f);
 			AddFlowerWithDeltaBeat (4f);
@@ -208,7 +207,7 @@ public class HurdleController: MonoBehaviour {
 		} else if (PlatformController.currentSongStep == AppData.Step.Two) {
 
 			AddRest (5 - 0.125f);
-			AddFlowerWithDeltaBeat (4.125f);
+			AddFlowerWithDeltaBeat (4.3f);
 			AddFlowerWithDeltaBeat (4f);
 			AddFlowerWithDeltaBeat (4f);
 			AddFlowerWithDeltaBeat (3.75f);

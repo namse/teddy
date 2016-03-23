@@ -93,7 +93,7 @@ public class PlatformController : MonoBehaviour {
 	}
 	void OnTriggerEnter2D(Collider2D coll)
 	{
-		//if(!dieTrigger)return;
+		return;
 		if (coll.gameObject.tag == "Hurdle")
 		{
 			Destroy(coll.gameObject);
