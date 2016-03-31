@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class Menu : MonoBehaviour {
@@ -12,6 +13,7 @@ public class Menu : MonoBehaviour {
 	public Animator MenuBearAnimator;
 	public GameObject MenuBear;
 	public AudioSource StampAudioSource;
+	public Image Omedeto;
 
 	public AudioSource BGM1AudioSoundSource;
 	public AudioSource BGM2AudioSoundSource;
@@ -19,13 +21,17 @@ public class Menu : MonoBehaviour {
 	private int CurrentWaitingTime = 0;
 	// Use this for initialization
 	void Start () {
+		var currentStep = AppData.getCurrentStep();
+		var didClearStep = AppData.getDidClearStep();
+		Debug.Log((int)currentStep);
+		Debug.Log((int)didClearStep);
 		// 스테이지 깨지 않았으면 항상 NULL이도록 할 것.
-		if (AppData.DidClearStep != AppData.Step.NULL ) {
+		if (didClearStep != AppData.Step.NULL ) {
 			StampAudioSource.Play();
 		} else {
-			MenuBearAnimator.SetInteger("currentStep", (int)AppData.CurrentStep);
+			MenuBearAnimator.SetInteger("currentStep", (int)currentStep);
 		}
-		MenuBearAnimator.SetInteger("clearStep", (int)AppData.DidClearStep);
+		MenuBearAnimator.SetInteger("clearStep", (int)didClearStep);
 
 		/*var stampStart = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, StepStart.position, Quaternion.identity);
 		stampStart.transform.SetParent(canvas.transform);
@@ -34,34 +40,35 @@ public class Menu : MonoBehaviour {
 			stampStart.StopAnimation ();
 		}*/
 
-		if (AppData.CurrentStep != AppData.Step.One) {
+		if (currentStep > AppData.Step.One) {
 			var stamp1 = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, Step1Image.position, Quaternion.identity);
 			stamp1.transform.SetParent(canvas.transform);
 			stamp1.transform.localScale = new Vector3 (1f, 1f, 1f);
-			if (AppData.DidClearStep != AppData.Step.One) {
+			if (didClearStep != AppData.Step.One) {
 				stamp1.StopAnimation();
 			}
 
-			if (AppData.CurrentStep != AppData.Step.Two) {
+			if (currentStep > AppData.Step.Two) {
 				var stamp2 = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, Step2Image.position, Quaternion.identity);
 				stamp2.transform.SetParent(canvas.transform);
 				stamp2.transform.localScale = new Vector3 (1f, 1f, 1f);
-				if (AppData.DidClearStep != AppData.Step.Two) {
+				if (didClearStep != AppData.Step.Two) {
 					stamp2.StopAnimation();
 				}
 
-				if (AppData.CurrentStep != AppData.Step.Three) {
+				if (currentStep > AppData.Step.Three) {
 					var stamp3 = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, Step3Image.position, Quaternion.identity);
 					stamp3.transform.SetParent(canvas.transform);
 					stamp3.transform.localScale = new Vector3 (1f, 1f, 1f);
-					if (AppData.DidClearStep != AppData.Step.Three) {
+					if (didClearStep != AppData.Step.Three) {
 						stamp3.StopAnimation();
 					}
+					Omedeto.enabled = true;
 				}
 			}
 		}
 		MenuBear.transform.SetAsLastSibling ();
-		AppData.DidClearStep = AppData.Step.NULL;
+		AppData.setDidClearStep(AppData.Step.NULL);
 		SetIsWalking();
 		CurrentWaitingTime = (int)(3 / 0.02);
 	}
@@ -87,7 +94,7 @@ public class Menu : MonoBehaviour {
 	}
 
 	public void StartStep1() {
-		if ((int)AppData.CurrentStep >= (int)AppData.Step.One) {
+		if ((int)AppData.getCurrentStep() >= (int)AppData.Step.One) {
 			PlatformController.currentSongStep = AppData.Step.One;
 			Application.LoadLevel("game");
 		}
@@ -95,14 +102,14 @@ public class Menu : MonoBehaviour {
 
 
 	public void StartStep2() {
-		if ((int)AppData.CurrentStep >= (int)AppData.Step.Two) {
+		if ((int)AppData.getCurrentStep() >= (int)AppData.Step.Two) {
 			PlatformController.currentSongStep = AppData.Step.Two;
 			Application.LoadLevel("game");
 		}
 	}
 
 	public void StartStep3() {
-		if ((int)AppData.CurrentStep >= (int)AppData.Step.Three) {
+		if ((int)AppData.getCurrentStep() >= (int)AppData.Step.Three) {
 			PlatformController.currentSongStep = AppData.Step.Three;
 			Application.LoadLevel("game");
 		}
