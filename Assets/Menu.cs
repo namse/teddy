@@ -10,35 +10,26 @@ public class Menu : MonoBehaviour {
 	public RectTransform Step2Image;
 	public RectTransform Step3Image;
 	public GameObject canvas;
-	public Animator MenuBearAnimator;
+    public Animator MenuBearAnimator;
+    public Animator OpenButtonAnimator;
 	public GameObject MenuBear;
 	public AudioSource StampAudioSource;
 	public Image Omedeto;
 
-	public AudioSource BGM1AudioSoundSource;
-	public AudioSource BGM2AudioSoundSource;
-	private AudioSource CurrentPlayingBGM = null;
-	private int CurrentWaitingTime = 0;
 	// Use this for initialization
-	void Start () {
+    void Start()
+    {
 		var currentStep = AppData.getCurrentStep();
 		var didClearStep = AppData.getDidClearStep();
-		Debug.Log((int)currentStep);
-		Debug.Log((int)didClearStep);
 		// 스테이지 깨지 않았으면 항상 NULL이도록 할 것.
 		if (didClearStep != AppData.Step.NULL ) {
 			StampAudioSource.Play();
-		} else {
-			MenuBearAnimator.SetInteger("currentStep", (int)currentStep);
 		}
+        MenuBearAnimator.SetInteger("currentStep", (int)currentStep);
 		MenuBearAnimator.SetInteger("clearStep", (int)didClearStep);
 
-		/*var stampStart = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, StepStart.position, Quaternion.identity);
-		stampStart.transform.SetParent(canvas.transform);
-		stampStart.transform.localScale = new Vector3 (1f, 1f, 1f);
-		if (AppData.DidClearStep != AppData.Step.Start) {
-			stampStart.StopAnimation ();
-		}*/
+        var isClearAll = (currentStep == AppData.Step.Goal);
+        OpenButtonAnimator.SetBool("OpenButton", isClearAll);
 
 		if (currentStep > AppData.Step.One) {
 			var stamp1 = (StampAnimationSprite) Instantiate(stampAnimationSpritePrefab, Step1Image.position, Quaternion.identity);
@@ -70,27 +61,11 @@ public class Menu : MonoBehaviour {
 		MenuBear.transform.SetAsLastSibling ();
 		AppData.setDidClearStep(AppData.Step.NULL);
 		SetIsWalking();
-		CurrentWaitingTime = (int)(3 / 0.02);
 	}
 
 	// Update is called once per frame
 	void Update () {
 		SetIsWalking();
-	}
-
-	void FixedUpdate () {
-		if (CurrentPlayingBGM == null || CurrentPlayingBGM.isPlaying == false) {
-			CurrentWaitingTime++; // 0.02 second for 1 timestep
-			if (CurrentWaitingTime >= 3 / 0.02) {
-				CurrentWaitingTime = 0;
-				if ( Random.Range(0, 2) == 0 ) {
-					CurrentPlayingBGM = BGM1AudioSoundSource;
-				} else {
-					CurrentPlayingBGM = BGM2AudioSoundSource;
-				}
-				CurrentPlayingBGM.Play();
-			}
-		}
 	}
 
 	public void StartStep1() {

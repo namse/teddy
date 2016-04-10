@@ -70,108 +70,108 @@ public class HurdleController: MonoBehaviour {
 
             AddRest(5 - 0.4f);
 
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 3.5f);
-			AddFlowerWithDeltaBeat (2, 3.5f);
-			AddFlowerWithDeltaBeat (2, 3.5f);
-			AddFlowerWithDeltaBeat (2, 3.75f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 3.5f);
+			AddFlowerWithDeltaBeat (0, 3.5f);
+			AddFlowerWithDeltaBeat (0, 3.5f);
+			AddFlowerWithDeltaBeat (0, 3.75f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			AddFlowerWithDeltaBeat (0, 8.25f);
 			AddFlowerWithDeltaBeat (0, 7.75f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			AddFlowerWithDeltaBeat (0, 8.25f);
 			AddFlowerWithDeltaBeat (0, 8f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 8f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (2, 3f);
-			AddFlowerWithDeltaBeat (2, 3f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 3f);
+			AddFlowerWithDeltaBeat (0, 3f);
 			AddFlowerWithDeltaBeat (0, 6f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 3.75f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 3.75f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1.25f);
 			AddFlowerWithDeltaBeat (0, 0.75f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 6.25f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 6f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
 			AddFlowerWithDeltaBeat (0, 1.5f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
@@ -180,10 +180,10 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
@@ -192,71 +192,71 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 10f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (1, 2.5f);
-			AddFlowerWithDeltaBeat (2, 4.75f);
-			AddFlowerWithDeltaBeat (2, 12.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 2.5f);
+			AddFlowerWithDeltaBeat (0, 4.75f);
+			AddFlowerWithDeltaBeat (0, 12.5f);
 			AddEndPoint ();
 
 
 		} else if (PlatformController.currentSongStep == AppData.Step.Two) {
 
 			AddRest (5 - 0.125f);
-			AddFlowerWithDeltaBeat (1, 4.3f);
-			AddFlowerWithDeltaBeat (1, 4f);
-			AddFlowerWithDeltaBeat (1, 4f);
-			AddFlowerWithDeltaBeat (1, 3.75f);
-			AddFlowerWithDeltaBeat (1, 4.25f);
-			AddFlowerWithDeltaBeat (1, 3.75f);
+			AddFlowerWithDeltaBeat (0, 4.3f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 3.75f);
+			AddFlowerWithDeltaBeat (0, 4.25f);
+			AddFlowerWithDeltaBeat (0, 3.75f);
 			
-			AddFlowerWithDeltaBeat (1, 2.25f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			// --------------------- 따레노가~
 			AddRest (0.15f);
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 3f);
+			AddFlowerWithDeltaBeat (0, 3f);
 			
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 3f);
+			AddFlowerWithDeltaBeat (0, 3f);
 			
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 3f);
+			AddFlowerWithDeltaBeat (0, 3f);
 			
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 3f);
+			AddFlowerWithDeltaBeat (0, 3f);
 			
 			// 지누~ 사~
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
@@ -273,49 +273,49 @@ public class HurdleController: MonoBehaviour {
 			//------------------------ 닛뽄씨가아
 			
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			// ------------------------------ 똑! 교오츠카니~
 			AddRest (0.125f);
 			
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			
 			AddRest (0.15f);
 			AddFlowerWithDeltaBeat (0, 1f);
@@ -323,43 +323,43 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			// --------------------------------
 			// 세션
 			AddRest (0.25f);
 			
 			AddFlowerWithDeltaBeat (0, 1.75f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			AddFlowerWithDeltaBeat (0, 1.75f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			AddFlowerWithDeltaBeat (0, 1.75f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			AddRest (0.5f);
 			AddFlowerWithDeltaBeat (0, 1.25f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			AddFlowerWithDeltaBeat (0, 1.75f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			AddFlowerWithDeltaBeat (0, 1.75f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			AddRest (0.05f);
 			AddFlowerWithDeltaBeat (0, 1.75f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			AddRest (0.5f);
 			AddFlowerWithDeltaBeat (0, 1.25f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			
 			
@@ -372,7 +372,7 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (2, 4.125f);
+			AddFlowerWithDeltaBeat (0, 4.125f);
 			
 			AddFlowerWithDeltaBeat (0, 0.75f);
 			AddFlowerWithDeltaBeat (0, 0.75f);
@@ -382,12 +382,12 @@ public class HurdleController: MonoBehaviour {
 			/// -------------------
 			
 			
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
@@ -398,36 +398,36 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			// -------------------------------
 			AddRest (0.15f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
 			AddRest (0.05f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (0, 1f);
-			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 1f);
+			AddFlowerWithDeltaBeat (0, 1f);
+			
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
@@ -451,23 +451,23 @@ public class HurdleController: MonoBehaviour {
 			
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			
 			// ---------------------------
 			
 			AddRest (0.05f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1.05f);
@@ -477,15 +477,15 @@ public class HurdleController: MonoBehaviour {
 			AddEndPoint ();
 
 		} else if (PlatformController.currentSongStep == AppData.Step.Three) {
-			AddRest (7f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddRest (6.8f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddRest (2f);
@@ -528,30 +528,30 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 0.75f);
-			AddFlowerWithDeltaBeat (0, 0.75f);
+			AddFlowerWithDeltaBeat (0, 0.8f);
 			
 			
 			AddFlowerWithDeltaBeat (0, 1f, 1);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
@@ -561,7 +561,7 @@ public class HurdleController: MonoBehaviour {
 			
 			
 			AddFlowerWithDeltaBeat (0, 8f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 0.75f);
 			AddFlowerWithDeltaBeat (0, 0.75f);
@@ -607,7 +607,7 @@ public class HurdleController: MonoBehaviour {
 			
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 0.75f);
-			AddFlowerWithDeltaBeat (1, 2.25f);
+			AddFlowerWithDeltaBeat (0, 2.25f);
 			
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
@@ -631,38 +631,38 @@ public class HurdleController: MonoBehaviour {
 			
 			AddRest (4.5f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
 			
-			AddFlowerWithDeltaBeat (1, 2f);
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			
 			
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			AddRest (4f);
 			AddRest (4f);
 			AddRest (4f);
 			
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
-			AddFlowerWithDeltaBeat (2, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
+			AddFlowerWithDeltaBeat (0, 4f);
 			
 			AddFlowerWithDeltaBeat (0, 1f);
 			AddFlowerWithDeltaBeat (0, 1.5f);
@@ -685,20 +685,20 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (0, 1.0f);
 			AddFlowerWithDeltaBeat (0, 1.0f);
 			
-			AddFlowerWithDeltaBeat (1, 2f);
+			AddFlowerWithDeltaBeat (0, 2f);
 			AddFlowerWithDeltaBeat (0, 1.0f);
 			AddFlowerWithDeltaBeat (0, 0.25f);
 			AddFlowerWithDeltaBeat (0, 0.75f);
 			
-			AddFlowerWithDeltaBeat (2, 3.0f);
+			AddFlowerWithDeltaBeat (0, 3.0f);
 			AddFlowerWithDeltaBeat (0, 0.25f);
 			AddFlowerWithDeltaBeat (0, 0.75f);
 			
 			
-			AddFlowerWithDeltaBeat (1, 2.0f);
-			AddFlowerWithDeltaBeat (1, 2.0f);
-			AddFlowerWithDeltaBeat (1, 2.0f);
-			AddFlowerWithDeltaBeat (1, 2.0f);
+			AddFlowerWithDeltaBeat (0, 2.0f);
+			AddFlowerWithDeltaBeat (0, 2.0f);
+			AddFlowerWithDeltaBeat (0, 2.0f);
+			AddFlowerWithDeltaBeat (0, 2.0f);
 			
 			
 			AddFlowerWithDeltaBeat (0, 0.75f);
@@ -825,7 +825,7 @@ public class HurdleController: MonoBehaviour {
 			AddFlowerWithDeltaBeat (0, 1.0f);
 			AddFlowerWithDeltaBeat (0, 1.0f);
 			
-			AddFlowerWithDeltaBeat (1, 2.0f); 
+			AddFlowerWithDeltaBeat (0, 2.0f); 
 			AddFlowerWithDeltaBeat (1, 2.0f);
 
 			AddRest(2.0f);
